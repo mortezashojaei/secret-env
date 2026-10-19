@@ -1,0 +1,14 @@
+[package]
+name = "secret-env"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Read environment variables straight into memsafe::Secret"
+license = "MIT"
+readme = "README.md"
+keywords = ["env", "secret", "dotenv", "memsafe", "security"]
+categories = ["config", "cryptography", "memory-management"]
+
+[dependencies]
+memsafe = "1.0"
+dotenvy = "0.15"
