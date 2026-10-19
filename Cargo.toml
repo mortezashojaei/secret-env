@@ -5,6 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 description = "Read environment variables straight into memsafe::Secret"
 license = "MIT"
+repository = "https://github.com/mortezashojaei/secret-env"
 readme = "README.md"
 keywords = ["env", "secret", "dotenv", "memsafe", "security"]
 categories = ["config", "cryptography", "memory-management"]
